@@ -53,7 +53,6 @@ var resultado = divisao(10, 2);
 console.log('Resultado da divisão de 10 por 2: ' + resultado);
 
 //ADICIONAL
-
-//testando um divisão inválida
+//testando uma divisão inválida
 var resultado02 = divisao(10,0);
 console.log('Resultado da divisão de 10 por 0: ' + resultado02);
