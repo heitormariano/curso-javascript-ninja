@@ -40,10 +40,10 @@ console.log('soma é igual a myvar(considerando também o tipo das variáveis)? 
 console.log('myvar é menor ou igual à variável soma? ', (myvar <= soma));
 
 // Crie uma função chamada `divisao` que receba como parâmetro dois números, e retorne o resultado da divisão entre eles.
-function divisao(num, den){
-	if(den !== 0){
+function divisao(num, den) {
+	if (den !== 0) {
 		return num / den;
-	} else{
+	} else {
 		return 'Denominador igual a zero. Operação inválida!';
 	}
 }
@@ -54,5 +54,5 @@ console.log('Resultado da divisão de 10 por 2: ' + resultado);
 
 //ADICIONAL
 //testando uma divisão inválida
-var resultado02 = divisao(10,0);
+var resultado02 = divisao(10, 0);
 console.log('Resultado da divisão de 10 por 0: ' + resultado02);
